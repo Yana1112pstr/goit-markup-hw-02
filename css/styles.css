@@ -14,14 +14,12 @@
 
 body {
 font-family: var(--main-font);
-font-style: normal;
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
-
 
 .logo {
     font-family: var(--logo-font);
@@ -41,7 +39,7 @@ color: var(--main-text-color);
     color: var(--alt-title-color);
 }
 
-.nav {
+.site-nav .link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,7 +48,11 @@ color: var(--main-text-color);
     text-decoration: none;
 }
 
-.nav:hover {
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
     color: var(--accent-color);
 }
 
@@ -76,8 +78,9 @@ color: var(--main-text-color);
     color: var(--alt-title-color);
 }
 
-.contacts {
+.contacts-link {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .btn {
@@ -104,14 +107,13 @@ color: var(--main-text-color);
 }
 
 .title {
-    font-weight: bold;
     color: var(--title-color);   
 }
 
 .page-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;  
+    line-height: 1.36;  
 }
 
 .title-label {
@@ -122,33 +124,30 @@ color: var(--main-text-color);
 
 .section-title {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
 }
 
-.title-team {
-    font-weight: 500;
+.team {
     font-size: 16px;
     line-height: 1.18;
+}
 
-    color: var(--title-color)
+.team .title {
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .page-title-portfolio {
     display: none;
 }
 
-.title-portfolio {
+.name-portfolio {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
 
-.content-team {
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.content-portfolio {
-    font-size: 16px;
-    line-height: 1.87;
+.text-portfolio {
+font-size: 16px;
+line-height: 1.87;
 }
